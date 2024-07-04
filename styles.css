@@ -1,15 +1,64 @@
-
-<style>
-    body {
-        padding-top: 50px;
-    }
-    .cv-section {
-        margin-bottom: 30px;
-    }
-    .navbar-brand {
-        font-size: 1.8em;
-    }
-    .cv-section h1 {
-        margin-bottom: 20px;
-    }
-</style>
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #666;
+}
+nav {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+.content {
+    margin: 40px 0;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.content h2 {
+    font-size: 2.5em;
+    margin: 0 0 20px;
+}
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
