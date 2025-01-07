@@ -3,31 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zhaleh Rahimi - Personal Website</title>
+  <title>Zhaleh Rahimi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.9/scrollreveal.min.js" defer></script>
+  <script src="js/script.js" defer></script>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo">Zhaleh Rahimi</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <section class="intro">
-      <h1>Hi, I'm Zhaleh</h1>
-      <p>A Computer Scientist / software engineer passionate about implementing impactful projects.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1 class="hero-title">Hi, I'm Zhaleh Rahimi.</h1>
+      <p class="hero-subtitle">
+        I am a Computer/Data Scientist and Here I write about my Journey.
+      </p>
+      <a href="#projects" class="cta-button">Explore Projects</a>
     </section>
-  </main>
 
-  <footer>
-    <p>&copy; 2025 Zhaleh Rahimi</p>
-  </footer>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm a data scientist / software engineer with experience in reasearch and development of AI solutions for Business Operations/Healthcare porblems.
+        My passion lies in solving real-world problems using creative and scientific solutions.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Univariate Time-series Forecasting</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Machine Learning Framework: Clustering-based Forecasting</p>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>A Game with Reinforcement Learning: Nim</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+      <h2>Blog</h2>
+      <p></p>
+      <ul class="blog-list">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>
+        I'd love to hear from you! Feel free to reach out via email or connect with me on LinkedIn.
+      </p>
+      <a href="mailto:rhmi.zhle@gmail.com" class="cta-button">Get in Touch</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Zhaleh Rahimi. Built with simplicity and care.</p>
+    </footer>
+  </div>
 </body>
 </html>
