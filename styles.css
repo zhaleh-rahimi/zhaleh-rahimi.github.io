@@ -1,141 +1,137 @@
-/* Custom CSS for Zhaleh Rahimi Website */
-
-/* General */
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #F0F1F3; /* Science-1A03-5 */
-    color: #692E4C; /* Science-1A03-1 */
+/* Reset */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
-  h1, h2, h3, h4, h5, h6 {
-    color: #741D4A; /* Science-1A03-2 */
+  /* Global Styles */
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background: #ffffff;
+    color: #333;
+    scroll-behavior: smooth; /* Enable smooth scrolling */
   }
   
-  a {
-    color: #FFBF69; /* Science-1A03-4 */
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #A1A5A8; /* Science-1A03-3 */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
   
   /* Navbar */
-  
   .navbar {
-    background-color: #692E4C !important; /* Science-1A03-1 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
   }
   
-  .navbar-light .navbar-nav .nav-link {
-    color: #F0F1F3 !important; /* Science-1A03-5 */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
   }
   
-  .navbar-light .navbar-nav .nav-link:hover {
-    color: #FFBF69 !important; /* Science-1A03-4 */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
   }
   
-  .navbar-light .navbar-brand {
-    color: #FFBF69 !important; /* Science-1A03-4 */
+  .nav-links a {
+    text-decoration: none;
+    color: #0078d4;
+    font-weight: 500;
+    transition: color 0.3s ease;
   }
   
-  .navbar-light .navbar-brand:hover {
-    color: #A1A5A8 !important; /* Science-1A03-3 */
-  }
-  
-  
-  .navbar-brand {
-    color: #FFBF69; /* Science-1A03-4 */
-    font-weight: bold;
-  }
-  
-  .navbar-nav .nav-link {
-    color: #F0F1F3; /* Science-1A03-5 */
-  }
-  
-  .navbar-nav .nav-link:hover {
-    color: #FFBF69; /* Science-1A03-4 */
+  .nav-links a:hover {
+    color: #005bb5;
   }
   
   /* Hero Section */
-  header {
-    background-color: #741D4A; /* Science-1A03-2 */
-    color: #F0F1F3; /* Science-1A03-5 */
+  .hero {
+    text-align: center;
+    padding: 100px 20px 60px;
   }
   
-  header h1 {
+  .hero-title {
     font-size: 3rem;
+    font-weight: 700;
+    color: #222;
   }
   
-  header p {
-    font-size: 1.25rem;
+  .hero-subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #666;
+    margin: 20px 0;
   }
   
-  header .btn {
-    background-color: #FFBF69; /* Science-1A03-4 */
-    color: #692E4C; /* Science-1A03-1 */
-    border: none;
+  .cta-button {
+    padding: 12px 24px;
+    background-color: #0078d4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
   }
   
-  header .btn:hover {
-    background-color: #A1A5A8; /* Science-1A03-3 */
-    color: #741D4A; /* Science-1A03-2 */
+  .cta-button:hover {
+    background-color: #005bb5;
   }
   
-  /* Sections */
+  /* Section */
   .section {
-    padding: 60px 0;
+    padding: 60px 20px;
+    text-align: center;
   }
   
   .section h2 {
-    text-align: center;
+    font-size: 2.5rem;
     margin-bottom: 20px;
   }
   
-  .section p {
-    text-align: center;
-    margin-bottom: 30px;
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
   }
   
-  .bg-light {
-    background-color: #F0F1F3 !important; /* Science-1A03-5 */
-    color: #692E4C; /* Science-1A03-1 */
+  .project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  /* Projects Section */
-  .card {
-    border: 1px solid #A1A5A8; /* Science-1A03-3 */
-    border-radius: 8px;
+  .blog-list {
+    list-style: none;
+    padding: 0;
   }
   
-  .card-title {
-    color: #741D4A; /* Science-1A03-2 */
+  .blog-list a {
+    text-decoration: none;
+    color: #0078d4;
+    font-weight: 500;
+    transition: color 0.3s ease;
   }
   
-  .card-text {
-    color: #692E4C; /* Science-1A03-1 */
-  }
-  
-  /* Contact Section */
-  #contact .btn {
-    background-color: #FFBF69; /* Science-1A03-4 */
-    color: #692E4C; /* Science-1A03-1 */
-  }
-  
-  #contact .btn:hover {
-    background-color: #A1A5A8; /* Science-1A03-3 */
-    color: #741D4A; /* Science-1A03-2 */
+  .blog-list a:hover {
+    color: #005bb5;
   }
   
   /* Footer */
   footer {
-    background-color: #692E4C; /* Science-1A03-1 */
-    color: #F0F1F3; /* Science-1A03-5 */
+    text-align: center;
     padding: 20px 0;
-  }
-  
-  footer p {
-    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px solid #eaeaea;
   }
   
