@@ -23,9 +23,27 @@ body {
   }
   
   /* Navbar */
+  
   .navbar {
-    background-color: #692E4C; /* Science-1A03-1 */
+    background-color: #692E4C !important; /* Science-1A03-1 */
   }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #F0F1F3 !important; /* Science-1A03-5 */
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #FFBF69 !important; /* Science-1A03-4 */
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #FFBF69 !important; /* Science-1A03-4 */
+  }
+  
+  .navbar-light .navbar-brand:hover {
+    color: #A1A5A8 !important; /* Science-1A03-3 */
+  }
+  
   
   .navbar-brand {
     color: #FFBF69; /* Science-1A03-4 */
