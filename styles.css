@@ -193,3 +193,87 @@
 .content-section.active {
   display: block; /* Show the active section */
 }
+
+    /* Navbar */
+    .navbar {
+      z-index: 1050; /* Ensures the navbar stays above other content */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    }
+
+    /* Offset content to prevent overlap with fixed navbar */
+    .row {
+      margin-top: 80px; /* Equal to navbar height */
+    }
+
+    /* Left Container */
+    .left-container {
+      background-color: #F0F1F3;
+      padding: 20px;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      justify-content: center; /* Center items vertically */
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .social-icons a {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+      font-size: 14px;
+      color: #3c3d41;
+      text-decoration: none;
+      justify-content: center; /* Center the icons */
+    }
+
+    .social-icons a:hover {
+      color: #a1cad2;
+    }
+
+    /* Right Container */
+    .fluid-right {
+      padding: 20px;
+      overflow-y: auto;
+      height: 100vh;
+    }
+
+    .content-container {
+      max-width: 700px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Projects Section */
+    #projects ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #projects li {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    #projects a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    #projects a:hover {
+      color: #007BFF;
+    }
+
+    #projects img {
+      width: 20px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
