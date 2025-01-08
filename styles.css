@@ -47,6 +47,11 @@ a:hover {
 .navbar-nav .nav-link:hover {
   color: #3CA6A6; /* Deep-Teal-Sea-4 */
 }
+/* Adding margin-top to the content below the navbar */
+.right-container,
+.left-container {
+  margin-top: 70px; /* Adjust this value based on your navbar height */
+}
 
 /* Left Container Styles */
 .left-container {
