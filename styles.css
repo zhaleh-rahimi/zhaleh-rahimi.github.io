@@ -1,11 +1,11 @@
-/* Importing Google Fonts */
+/* Importing Google Fonts */ 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 /* Global Styles */
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #F2E3D5; /* Deep-Teal-Sea-5 */
-  color: #012E40; /* Deep-Teal-Sea-1 */
+  background-color: #E3CDA4; /* Copy-of-Vintage-Ralph-Lauren-4 */
+  color: #2F343B; /* Copy-of-Vintage-Ralph-Lauren-2 */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,12 +17,12 @@ a {
 }
 
 a:hover {
-  color: #3CA6A6; /* Deep-Teal-Sea-4 */
+  color: #C77966; /* Copy-of-Vintage-Ralph-Lauren-5 */
 }
 
 /* Navbar Styles */
 .navbar {
-  background-color: #026773; /* Deep-Teal-Sea-3 */
+  background-color: #7E827A; /* Copy-of-Vintage-Ralph-Lauren-3 */
   position: fixed;
   top: 0;
   left: 0;
@@ -33,30 +33,30 @@ a:hover {
 
 .navbar-brand {
   font-family: 'Lovely Coffee', sans-serif;
-  color: #026773; /* Deep-Teal-Sea-5 */
+  color: #703030; /* Copy-of-Vintage-Ralph-Lauren-1 */
   font-size: 24px;
   font-weight: bold;
   text-transform: none;
 }
 
 .navbar-nav .nav-link {
-  color: #F2E3D5; /* Deep-Teal-Sea-5 */
+  color: #E3CDA4; /* Copy-of-Vintage-Ralph-Lauren-4 */
   font-weight: 600;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #3CA6A6; /* Deep-Teal-Sea-4 */
+  color: #C77966; /* Copy-of-Vintage-Ralph-Lauren-5 */
 }
 
 /* Adding margin-top to the content below the navbar */
 .right-container,
 .left-container {
-  margin-top: 150px; /* Adjust this value based on your navbar height */
+  margin-top: 100px; /* Adjust this value based on your navbar height */
 }
 
 /* Left Container Styles */
 .left-container {
-  background-color: #F2E3D5; /* Deep-Teal-Sea-5 */
+  background-color: #E3CDA4; /* Copy-of-Vintage-Ralph-Lauren-4 */
   height: 100vh;
   padding: 20px;
   text-align: center;
@@ -72,18 +72,18 @@ a:hover {
 .social-icons a {
   display: inline-block;
   margin: 10px 15px;
-  color: #012E40; /* Deep-Teal-Sea-1 */
+  color: #703030; /* Copy-of-Vintage-Ralph-Lauren-1 */
   font-size: 10px;
 }
 
 .social-icons a:hover {
-  color: #3CA6A6; /* Deep-Teal-Sea-4 */
+  color: #C77966; /* Copy-of-Vintage-Ralph-Lauren-5 */
 }
 
 /* Right Container Styles */
 .right-container {
   padding: 20px;
-  
+  margin-top: 80px; /* Ensure it stays below the fixed navbar */
 }
 
 .content-section {
@@ -95,13 +95,13 @@ a:hover {
 
 .content-section h1 {
   font-size: 32px;
-  color: #012E40; /* Deep-Teal-Sea-1 */
+  color: #2F343B; /* Copy-of-Vintage-Ralph-Lauren-2 */
   font-weight: 700;
 }
 
 .content-section p {
   font-size: 18px;
-  color: #026773; /* Deep-Teal-Sea-3 */
+  color: #7E827A; /* Copy-of-Vintage-Ralph-Lauren-3 */
 }
 
 /* Mobile Styles */
@@ -135,8 +135,8 @@ a:hover {
 
 /* Footer Styles */
 footer {
-  background-color: #026773; /* Deep-Teal-Sea-3 */
-  color: #F2E3D5; /* Deep-Teal-Sea-5 */
+  background-color: #7E827A; /* Copy-of-Vintage-Ralph-Lauren-3 */
+  color: #E3CDA4; /* Copy-of-Vintage-Ralph-Lauren-4 */
   text-align: center;
   padding: 20px 0;
   position: relative;
@@ -145,9 +145,9 @@ footer {
 }
 
 footer a {
-  color: #F2E3D5; /* Deep-Teal-Sea-5 */
+  color: #E3CDA4; /* Copy-of-Vintage-Ralph-Lauren-4 */
 }
 
 footer a:hover {
-  color: #3CA6A6; /* Deep-Teal-Sea-4 */
+  color: #C77966; /* Copy-of-Vintage-Ralph-Lauren-5 */
 }
