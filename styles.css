@@ -51,7 +51,7 @@ a:hover {
 /* Adding margin-top to the content below the navbar */
 .right-container,
 .left-container {
-  margin-top: 1000px; /* Adjust this value based on your navbar height */
+  margin-top: 150px; /* Adjust this value based on your navbar height */
 }
 
 /* Left Container Styles */
@@ -83,7 +83,7 @@ a:hover {
 /* Right Container Styles */
 .right-container {
   padding: 20px;
-  margin-top: 80px; /* Ensure it stays below the fixed navbar */
+  
 }
 
 .content-section {
