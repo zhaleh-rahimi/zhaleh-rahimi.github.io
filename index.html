@@ -14,10 +14,6 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Zhaleh Rahimi</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -91,7 +87,11 @@
               </a>
             </li>
           </ul>
-        `
+        `,
+        blog: `
+          
+          <p>Stay tuned for my latest posts!</p>
+        `,
       };
 
       document.getElementById('dynamic-content').innerHTML = content[sectionId];
