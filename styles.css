@@ -162,16 +162,18 @@
   display: flex;
   flex-direction: column; /* Align icons vertically */
   gap: 15px; /* Space between icons */
+  font-size: 1.5rem;
+  color: #282325;
 }
 
 .icon-link {
   font-size: 1.5rem;
-  color: #692E4C;
+  color: #282325;
   text-decoration: none;
 }
 
 .icon-link:hover {
-  color: #FFBF69;
+  color: #7b7c6f;
 }
 
 /* Fluid Right Section Styling */
