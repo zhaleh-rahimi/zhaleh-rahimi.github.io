@@ -52,6 +52,13 @@
   .nav-links a:hover {
     color: #005bb5;
   }
+  .navbar-brand {
+    font-family: 'Lovely Coffee', sans-serif;
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: adjust weight if the font supports it */
+    color: #0f0f0f; /* Use your theme color */
+    text-transform: none; /* Ensure the text stays styled as the font's default */
+  }
   
   /* Hero Section */
   .hero {
@@ -219,4 +226,6 @@
       justify-content: center; /* Center items vertically */
     }
 
+    
+    
     
