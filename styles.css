@@ -51,7 +51,8 @@ a:hover {
 /* Adding margin-top to the content below the navbar */
 .right-container,
 .left-container {
-  margin-top: 80px; 
+  margin-top: 70px; 
+ 
 }
 
 /* Left Container Styles */
@@ -69,15 +70,27 @@ a:hover {
   border-radius: 50%;
 }
 
+
 .social-icons a {
-  display: inline-block;
-  margin: 10px 15px;
+  display: flexbox;
+  margin: auto;
   color: #4A4A4A; 
-  font-size: 10px;
+  border: 1px solid #4A4A4A;;
+  border-radius: 8%;
+  font-size: 12px;
+  padding: 10px;
+  
+}
+
+.social-icons a:link,.social-icons a:visited {
+  background-color:#ffffff;
+  
+  width:150px;
+  text-align: center;
 }
 
 .social-icons a:hover {
-  color: #E0D7C5; 
+  color: #000000; 
 }
 
 /* Right Container Styles */
@@ -95,13 +108,13 @@ a:hover {
 }
 
 .content-section h1, .dynamic_content h1 {
-  font-size: 32px;
+  
   color: #000000;
   font-weight: 700;
 }
 
 .content-section p, .dynamic_content p {
-  font-size: 18px;
+  
   color: #4A4A4A; 
 }
 
