@@ -86,7 +86,7 @@ a:hover {
   
 }
 
-.content-section {
+.content-section, .dynamic_content {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 10px;
