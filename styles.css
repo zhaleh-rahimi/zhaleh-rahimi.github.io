@@ -93,13 +93,13 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.content-section h1 {
+.content-section h1, .dynamic_content h1 {
   font-size: 32px;
   color: #000000;
   font-weight: 700;
 }
 
-.content-section p {
+.content-section p, .dynamic_content p {
   font-size: 18px;
   color: #C9C9C2; 
 }
