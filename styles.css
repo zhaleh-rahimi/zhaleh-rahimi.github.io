@@ -4,8 +4,8 @@
 /* Global Styles */
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #FFFFFF; /* Copy-of-Vintage-Ralph-Lauren-4 */
-  color: #000000; /* Copy-of-Vintage-Ralph-Lauren-2 */
+  background-color: #FFFFFF; 
+  color: #000000; 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-  color: #E0D7C5; /* Copy-of-Vintage-Ralph-Lauren-5 */
+  color: #E0D7C5; 
 }
 
 /* Navbar Styles */
@@ -33,30 +33,30 @@ a:hover {
 
 .navbar-brand {
   font-family: 'Champignon', sans-serif;
-  color: #4A4A4A; /* Copy-of-Vintage-Ralph-Lauren-1 */
+  color: #4A4A4A; 
   font-size: 24px;
   font-weight: bold;
   text-transform: none;
 }
 
 .navbar-nav .nav-link {
-  color: #000000; /* Copy-of-Vintage-Ralph-Lauren-4 */
+  color: #000000;
   font-weight: 600;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #E0D7C5; /* Copy-of-Vintage-Ralph-Lauren-5 */
+  color: #E0D7C5; 
 }
 
 /* Adding margin-top to the content below the navbar */
 .right-container,
-.left-container, .content-section {
-  margin-top: 300px; /* Adjust this value based on your navbar height */
+.left-container {
+  margin-top: 300px; 
 }
 
 /* Left Container Styles */
 .left-container {
-  background-color: #FFFFFF; /* Copy-of-Vintage-Ralph-Lauren-4 */
+  background-color: #FFFFFF; 
   height: 100vh;
   padding: 20px;
   text-align: center;
@@ -72,12 +72,12 @@ a:hover {
 .social-icons a {
   display: inline-block;
   margin: 10px 15px;
-  color: #4A4A4A; /* Copy-of-Vintage-Ralph-Lauren-1 */
+  color: #4A4A4A; 
   font-size: 10px;
 }
 
 .social-icons a:hover {
-  color: #E0D7C5; /* Copy-of-Vintage-Ralph-Lauren-5 */
+  color: #E0D7C5; 
 }
 
 /* Right Container Styles */
@@ -95,13 +95,13 @@ a:hover {
 
 .content-section h1 {
   font-size: 32px;
-  color: #000000; /* Copy-of-Vintage-Ralph-Lauren-2 */
+  color: #000000;
   font-weight: 700;
 }
 
 .content-section p {
   font-size: 18px;
-  color: #C9C9C2; /* Copy-of-Vintage-Ralph-Lauren-3 */
+  color: #C9C9C2; 
 }
 
 /* Mobile Styles */
@@ -135,8 +135,8 @@ a:hover {
 
 /* Footer Styles */
 footer {
-  background-color:#C9C9C2; /* Copy-of-Vintage-Ralph-Lauren-3 */
-  color: #FFFFFF; /* Copy-of-Vintage-Ralph-Lauren-4 */
+  background-color:#C9C9C2; 
+  color: #FFFFFF; 
   text-align: center;
   padding: 20px 0;
   position: relative;
@@ -145,9 +145,9 @@ footer {
 }
 
 footer a {
-  color: #FFFFFF; /* Copy-of-Vintage-Ralph-Lauren-4 */
+  color: #FFFFFF; 
 }
 
 footer a:hover {
-  color: #E0D7C5; /* Copy-of-Vintage-Ralph-Lauren-5 */
+  color: #E0D7C5; 
 }
