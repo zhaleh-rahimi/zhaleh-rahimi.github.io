@@ -82,12 +82,13 @@ a:hover {
 
 /* Right Container Styles */
 .right-container {
-  padding: 20px;
+  padding: 80px;
   
 }
 
 .content-section, .dynamic_content {
-  padding: 20px;
+  margin-top: 80px; 
+  padding: 80px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
