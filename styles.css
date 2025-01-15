@@ -72,7 +72,7 @@ a:hover {
 
 
 .social-icons a {
-  display: inline-block;
+  display: block;
   margin: auto;
   color: #4A4A4A;  
   font-size: 10px;
