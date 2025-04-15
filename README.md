@@ -1,8 +1,8 @@
-Hi, I’m Zhaleh👋 — a curious mind with a focus on thoughtful and creative work. I like things to feel natural, grounded, and real, both in conversation and in what I create.
+Hi, I’m Zhaleh👋 — a curious mind with a focus on thoughtful and creative work. I value things that feel natural, grounded, and real, both in conversation and in what I create.
 
-I am currently a PhD candidate in Computer Science at McMaster University. Lately, my work centers around Resource allocation and Stochastic Systems, Demand Forecasting and Operational Optimization, AI in Healthcare and Applications of Machine Learning in OR.
+I'm currently a PhD candidate in Computer Science. My research focuses on resource allocation and stochastic systems, demand forecasting and operational optimization, AI in healthcare, and applications of machine learning in operations research.
 
-I am interested in exploring the spaces where ideas, design, and human experience intersect. Whether I’m building, writing, or problem-solving, I’m always looking for clarity, depth, and meaning. I'm passionate about working with peers and industry leaders to push the boundaries of innovation and create technology that drives meaningful change.
+I'm especially interested in the intersection of ideas, design, and human experience. In building, writing, or problem-solving, I like to bring clarity, depth, and purpose. Collaborating with peers and industry leaders to push the boundaries of innovation and contribute to meaningful, real-world impact is a central part of that work.
 
 Reach out to me by [email](mailto:rhmi.zhle@gmail.com)!
 
