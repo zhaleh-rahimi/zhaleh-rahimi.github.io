@@ -1,18 +1,11 @@
-# Personal Website
+Hi, I’m Zhaleh — a curious mind with a focus on thoughtful and creative work. I like things to feel natural, grounded, and real, both in conversation and in what I create.
 
-Welcome to my personal website repository. This website serves as an online portfolio where I share my projects, blog posts, and contact information.
+I am currently a PhD candidate in Computer Science at McMaster University. Lately, my work centers around Resource allocation and Stochastic Systems, Demand Forecasting and Operational Optimization AI in Healthcare and Applications of Machine Learning in OR.
 
-## Overview
-
-This website is designed to provide information about me, my work, and how to get in touch with me. 
+I am interested in exploring the spaces where ideas, design, and human experience intersect. Whether I’m building, writing, or problem-solving, I’m always looking for clarity, depth, and meaning.
 
 ### Contact
 - [Email](mailto:rhmi.zhle@gmail.com)
-
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 
 
