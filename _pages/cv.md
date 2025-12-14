@@ -11,35 +11,20 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, McMaster University
+* M. Business Administration, Alzahra University
+* B.S. in Computer Software Engineering, Amirkabir University
 
-Work experience
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* January 2022 - Present: Research Assisstant, Machine Learning and Operation Research
+  * Resource allocation and Stochastic Systems Lab, Deprment of Computer and Software, McMaster University
+  * Supervisor: Dr. Down
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* January 2017 - April 2019: Research Assistant, Machine Learning and Healthcare Operations
+  * Hasheminejad Kidney Center
+  * Supervisor: Dr. Abdolvand
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
@@ -59,6 +44,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+S
