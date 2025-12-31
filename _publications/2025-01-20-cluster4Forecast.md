@@ -7,7 +7,7 @@ excerpt: 'Our study proposes an iterative clustering-based demand forecasting fr
 date: 2025-01-20
 venue: 'Operations Research, Data Analytics and Logistics'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S3050784725000030'
-citation: 'Rahimi, Z., Li, N., Down, D. G., Arnold, D. (2024).&quot; Clustering-based demand forecasting with an application to immunoglobulin products.&quot; <i>Operations Research, Data Analytics and Logistics</i>.'
+citation: 'Rahimi, Z., Li, N., Down, D. G., Arnold, D. (2025).&quot; Clustering-based demand forecasting with an application to immunoglobulin products.&quot; <i>Operations Research, Data Analytics and Logistics</i>.'
 ---
 
 Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
