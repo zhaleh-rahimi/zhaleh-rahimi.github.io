@@ -11,14 +11,14 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computer Science, McMaster University
-* M. Business Administration, Alzahra University
+* Ph.D. in Computer Science, McMaster University
+* M.S. in Computer Engineering, University of Tehran & Business Administration, Alzahra University
 * B.S. in Computer Software Engineering, Amirkabir University
 
 Experience
 ======
 * January 2022 - Present: Research Assisstant, Machine Learning and Operation Research
-  * Resource allocation and Stochastic Systems Lab, Deprment of Computer and Software, McMaster University
+  * Resource allocation and Stochastic Systems Lab, Department of Computing and Software, McMaster University
   * Supervisor: Dr. Down
 
 * January 2017 - April 2019: Research Assistant, Machine Learning and Healthcare Operations
