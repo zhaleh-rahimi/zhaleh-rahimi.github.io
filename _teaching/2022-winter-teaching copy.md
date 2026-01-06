@@ -11,11 +11,3 @@ location: "Hamilton, ON"
 Delivered lab instruction on UNIX systems, C programming, testing, profiling, benchmarking, and revision control using Git.
 Guided students through real-world software development practices, including shell scripting, debugging, and documentation.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======

@@ -11,11 +11,3 @@ location: "Hamilton, ON"
 Led tutorials and graded coursework for subjects including Markov processes (CTMC, DTMC), queuing models, and simulation-based performance evaluation of computer networks.
 
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
